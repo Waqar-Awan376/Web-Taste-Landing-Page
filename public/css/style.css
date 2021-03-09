@@ -1,0 +1,718 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.my-caroussel {
+  position: absolute;
+  z-index: -2;
+}
+.my-caroussel ol li {
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-caroussel ol li.active div {
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+
+.carousel-item {
+  filter: brightness(30%);
+}
+
+.my-nav {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.myhov {
+  color: #ffffff;
+}
+.myhov:hover {
+  background-color: #ac2b36;
+  /* width: 115px; */
+  text-align: center;
+}
+
+.my-head {
+  position: relative;
+  width: 50%;
+  font-family: "Courgette", cursive;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.my-size {
+  font-size: 65px;
+}
+
+.occasion {
+  font-size: 90px;
+}
+
+.my-taste {
+  font-size: 90px;
+  color: #ac2b36;
+}
+
+.makes {
+  font-size: 80px;
+}
+
+@media (max-width:992px)
+{
+  .my-size {
+    font-size: 2rem;
+  }
+  
+  .occasion {
+    font-size: 4rem;
+  }
+  
+  .my-taste {
+    font-size: 3.5rem;
+  }
+  
+  .makes {
+    font-size: 50px;
+  }
+  .display-md-none
+  {
+    display: none;
+  }
+  .my-head {
+    position: relative;
+    font-family: "Courgette", cursive;
+    margin-top: 0px;
+    padding-top: 6rem !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .height-90vh
+  {
+    height: 650px  !important;
+  }
+
+.myborder-grey
+{
+  margin-left: 0px !important;
+}
+
+}
+
+
+.height-910px
+{
+  height: 910px;
+}
+@media (max-width:556px)
+{
+  .my-para
+  {
+    width: 100% !important;
+    margin:0px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .my-head {
+    position: relative;
+    font-family: "Courgette", cursive;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .ma-taille
+  {
+    height: 60px !important;
+  }
+}
+
+
+.my-button {
+  border: solid 1px white;
+}
+
+.my-button2 {
+  border: solid 1px #ac2b36;
+}
+
+.decoration {
+  height: 2vh;
+  width: 100vw;
+  background-image: url(../../public/img/bottom_decoration_img.png);
+  position: relative;
+  margin-top: 11%;
+  background-repeat: repeat-x;
+}
+
+.my-para {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+footer {
+  background-image: url(".././img/footer_background.jpg");
+  background-size: cover;
+  /* height: 500px;
+  width: 100vw; */
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+footer .mydec {
+  background-image: url("../../public/img/footer_bottom_decoration_img.png");
+  height: 2vh;
+  background-repeat: repeat-x;
+}
+
+
+
+.tid {
+  padding: 0px;
+}
+
+.my-mainbg {
+  background-image: url("../../public/img/main_bg.jpg");
+  min-height: 1900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mymain {
+  min-height: 1600px;
+  width: 90%;
+  margin-bottom: 3%;
+  padding: 0px;
+  border: solid 1px #ebebeb;
+}
+
+.my-out {
+  color: #ac2b36;
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+.my-out span {
+  color: black;
+  font-size: 35px;
+}
+
+.myicon {
+  color: #c4152c;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-icone {
+  color: #cec2c2;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-icone:hover {
+  color: #c4152c;
+}
+
+.myplc {
+  font-family: "Courgette", cursive;
+}
+
+.myborder-grey {
+  border-bottom: solid #e6d6d6 1px;
+  border-right: solid #e6d6d6 1px;
+  margin-left: 5%;
+}
+.myborder-grey:hover {
+  border-right: solid #c4152c 5px !important;
+}
+
+.mylastbdr {
+  border-right: solid #e6d6d6 1px;
+  height: 150px;
+  margin-left: 5%;
+}
+
+.my-mt {
+  margin-top: 2%;
+}
+
+.ma-taille {
+  height: 100px;
+}
+
+.my-mar {
+  margin-top: 27%;
+}
+
+.my-price {
+  margin-top: 95%;
+}
+
+.my-price-bg {
+  background: #dbdbdb;
+  text-align: center;
+}
+
+.my-meet {
+  min-height: 725px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 48% 42%; */
+  background-image: url("../../public/img/team_background.jpg");
+}
+.my-meet h1 {
+  color: #ffffff;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+.my-meet h1 span {
+  color: #ac2b36;
+  font-family: "Courgette", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.my-chef {
+  margin-top: 7%;
+  padding: 0px;
+}
+.my-chef img {
+  border-bottom: solid #a5a5a5 2px;
+  height: 400px;
+}
+
+/* .my-mainbg-2 {
+  background-image: url("../../public/img/main_bg.jpg");
+  min-height: 1900px;
+}
+.my-mainbg-2 .my-menu2 {
+  width: 80%;
+  min-height: 1800px;
+  border: solid 1px #ebebeb;
+  margin-left: 10%;
+} */
+
+.my-h1 {
+  font-size: 45px;
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+.my-h1 span {
+  color: #ac2b36;
+  font-size: 60px;
+}
+
+/* .mybg {
+  background-image: url("../../public/img/book_table_bg.jpg");
+  background-repeat: no-repeat;
+  height: 550px;
+  padding: 0px;
+  width: 750px;
+  background-size: 100%;
+  border-radius: 2%;
+} */
+
+.mydeco {
+  margin-left: 35%;
+}
+
+.mys {
+  max-width: 800px;
+  margin-top: 5%;
+}
+
+.mybook {
+  border-radius: 50px;
+  padding: 20px;
+  width: 150px;
+}
+
+.input-group > .form-control, .input-group > .form-select {
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.input {
+  margin-bottom: 200px;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 5%;
+}
+
+.myblog {
+  border: solid 5px #b6b6b677;
+  border-radius: 5%;
+  width: auto;
+}
+
+.mytrans {
+  transform: translateY(-15%) translateX(5%);
+}
+.mytrans .myb {
+  border-radius: 15px;
+  width: 90%;
+  padding: 5px;
+}
+
+.myknow {
+  width: 50%;
+  height: 50px;
+}
+.myknow .mybook {
+  margin-left: 90%;
+}
+
+/* .mytesti {
+  background-image: url("../../public/img/testimonials_background.jpg");
+  height: 750px;
+  background-size: 800%;
+  background-position-x: 50%;
+  background-position-y: 80%;
+  padding: 0px;
+} */
+
+.my-testimonial {
+  background-image: url(../../public/img/testimonials_background.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 80%;
+}
+/* .mytesti .mypad {
+  padding-top: 100px;
+}
+.mytesti .mypad .myte {
+  font-family: "Courgette", cursive;
+  color: #ac2b36;
+  text-align: center;
+  font-size: 80px;
+}
+.mytesti .mypad .myte .myte2 {
+  font-size: 60px;
+  color: white;
+}
+.mytesti .myte3 {
+  margin-left: 32.5%;
+  width: 35%;
+} */
+
+.my-testimonial .mypad {
+  padding-top: 80px;
+}
+
+.my-testimonial .mypad .myte {
+  font-family: "Courgette", cursive;
+  color: #ac2b36;
+  text-align: center;
+  font-size: 80px;
+}
+
+.my-testimonial .mypad .myte .myte2 {
+  font-size: 60px;
+  color: white;
+}
+
+.my-testimonial .myte3 {
+  margin-left: 32.5%;
+  width: 35%;
+}
+
+.mybb {
+  border-bottom: 2px dotted #d8d7d7;
+  margin-left: 2%;
+}
+
+.mytimg {
+  border: white 5px solid;
+  border-radius: 50%;
+  margin-top: 35%;
+}
+
+.my-border {
+  border: solid 3px grey;
+  border-radius: 2%;
+  width: 90%;
+}
+
+.mycontact {
+  background-image: url("../../public/img/main_bg.jpg");
+}
+
+.myour {
+  font-family: "Courgette", cursive;
+  font-size: 45px;
+}
+.myour .our {
+  font-size: 65px;
+  color: #ac2b36;
+}
+
+.myrounded {
+  border-radius: 3%;
+}
+
+.mynumber {
+  transform: rotate(100deg);
+}
+
+/*# sourceMappingURL=style.css.map */
+.icone-box
+{
+  height: 140px;
+  width: 180px;
+}
+
+
+
+.padding-t-100 {
+  padding-top: 100px !important;
+}
+
+.padding-10 {
+  padding: 10px !important
+}
+
+.padding-left-right-40 {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.border-radius-10 {
+  border-radius: 10px !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px !important;
+}
+
+.my-mainbg-2 {
+  background-image: url("../../public/img/main_bg.jpg");
+}
+
+.my-mainbg-2 .my-menu2 {
+  width: 80%;
+  border: solid 1px #ebebeb;
+}
+
+.mybg {
+  background-image: url("../../public/img/book_table_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2%;
+  width: 60%;
+}
+
+@media screen and (max-width:768px) {
+  .footer-headings {
+    text-align: center;
+  }
+
+  .footer-content {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .my-mainbg-2 .my-menu2 {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h-0
+{
+  height: 0px;
+}
+
+
+/*
+ * Made by Erik Terwan
+ * 24th of November 2015
+ * MIT License
+ *
+ *
+ * If you are thinking of using this in
+ * production code, beware of the browser
+ * prefixes.
+ */
+
+
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   width: 80%;
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #232323;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: tomato;
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   left: -5px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #cdcdcd;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #c4152c;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   min-height: 70vh;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   
+   background: rgba(0,0,0,0.8);
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+   color: white;
+ }
+ #menu li:hover
+ {
+   color:#c4152c;
+ }
+ 
+ /*
+  * And let's slide it in from the left
+  */
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }

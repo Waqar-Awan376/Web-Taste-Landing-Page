@@ -1,0 +1,73 @@
+.my-caroussel
+    position: absolute
+    z-index: -2
+    ol
+        li
+            border-radius: 50%
+            height: 18px
+            width: 18px
+            display: flex
+            justify-content: center
+            align-items: center
+        li.active
+            div
+                border-radius: 50%
+                background-color: white
+                border: 2px solid black
+                border-radius: 50%
+                width: 14px
+                height: 14px
+
+.carousel-item
+    filter: brightness(30%)
+
+.my-nav
+    position: relative
+    height: 150px
+    width: 100%
+
+.myhov
+    color: #ffffff
+    &:hover
+        background-color: $sang
+        width: 115px
+        text-align: center
+
+.my-head
+    position: relative
+    width: 50%
+    font-family: $police
+    margin-left: 25%
+    margin-top: 5%
+.my-size
+    font-size: 65px
+.occasion
+    font-size: 90px
+.my-taste
+    font-size: 90px
+    color: $sang
+.makes
+    font-size: 80px
+
+.my-button
+    border: solid 1px white
+.my-button2
+    border: solid 1px $sang
+.decoration
+    height: 2vh
+    width: 100vw
+    background-image: url(../../public/img/bottom_decoration_img.png)
+    position: relative
+    margin-top: 11%
+    background-repeat: repeat-x
+.my-para
+    width: 50%
+    margin-left: 25%
+    margin-top: 5%
+
+// mediaqueries NavBar    
+
+@media screen and (min-width: 600px) and (max-width: 1023px)
+
+@media screen and (min-width: 320px) and (max-width: 599px)
+
